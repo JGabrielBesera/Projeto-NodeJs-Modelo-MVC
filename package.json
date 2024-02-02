@@ -1,0 +1,25 @@
+{
+  "name": "backend2",
+  "version": "1.0.0",
+  "description": "projeto node com express, prisma, zod, no padrão de projeto MVC",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "node",
+    "express",
+    "zod",
+    "api",
+    "jwt",
+    "mvc"
+  ],
+  "author": "João Gabriel",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
